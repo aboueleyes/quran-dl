@@ -1,4 +1,6 @@
 # quran-dl
+[![StandWithPalestine](https://raw.githubusercontent.com/TheBSD/StandWithPalestine/main/badges/StandWithPalestine.svg)](https://github.com/TheBSD/StandWithPalestine/blob/main/docs/README.md)
+
 
 A Python package to download Quran audio files .
 
