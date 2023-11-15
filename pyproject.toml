@@ -1,0 +1,53 @@
+[tool.ruff]
+line-length = 120
+exclude = [
+  ".bzr",
+  ".direnv",
+  ".eggs",
+  ".git",
+  ".git-rewrite",
+  ".hg",
+  ".mypy_cache",
+  ".nox",
+  ".pants.d",
+  ".pytype",
+  ".ruff_cache",
+  ".svn",
+  ".tox",
+  ".venv",
+  "__pypackages__",
+  "_build",
+  "buck-out",
+  "build",
+  "dist",
+  "node_modules",
+  "migrations",
+  "build",
+  ".pem",
+]
+target-version = "py310"
+select = [
+  "E",    # pycodestyle
+  "F",    # pyflakes
+  "UP",   # pyupgrade
+  "I",    # isort
+  "N",    # pep8-naming
+  "S",    # falke8-bandit
+  "BLE",  # flake8-blind-except
+  "C4",   # flake8-comprehensions
+  "T10",  # flake8-debugger
+  "T20",  # flake8-print
+  "DJ01", # flake8-django,
+  "RUF",  # ruff
+  "Q",    # flake8-quotes
+  "SIM",  # flake8-simplify
+  "C90",  # mccabe
+  "DJ",   # flake8-django
+  "TID",  # flake8-tidy-imports
+  "INT",  # flake8-gettext
+]
+ignore-init-module-imports = true
+show-source = true
+fix = true
+
+task-tags = ["TODO", "FIXME"]
