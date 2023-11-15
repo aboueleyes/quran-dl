@@ -25,6 +25,6 @@ if __name__ == "__main__":
     os.makedirs("urls", exist_ok=True)
     for reciter in chosen_reciters:
         with open(f"urls/{reciter.name}.txt", "w") as f:
-            for chapter in range(1, 115):
+            for chapter in range(args.start, args.end + 1):
                 f.write(QuranDownloader.get_chapter_path(chapter, reciter) + "\n")
         logger.info("Saved urls for {} to urls/{}.txt", reciter.name, reciter.name)
