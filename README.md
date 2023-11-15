@@ -26,6 +26,11 @@ You can specify the start and end surahs to download.
 > python src/main.py --start 1 --end 2
 ```
 
+To get a single surah 
+```bash
+> python src/main.py --s 12 --e 12
+```
+
 You can specify the language to use for the download.
 
 ```bash
